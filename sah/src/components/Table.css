@@ -1,0 +1,21 @@
+.container{
+    
+    width: 510px;
+    height: 520px;
+    background-color:  rgb(71, 35, 2);
+    display: grid; 
+    grid-template-rows:  auto auto auto auto auto auto auto auto auto;
+   grid-auto-flow: column;
+    border: solid;
+    border-color: rgb(71, 35, 2);;
+   
+ 
+}
+.cont
+{ background-color:rgb(255, 194, 141);
+ width: 60px;
+height: 60px;
+  margin-top: 3px;
+  margin-left: 3px;
+
+}
