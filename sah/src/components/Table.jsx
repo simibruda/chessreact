@@ -5,7 +5,7 @@ const emtyArrofeight = new Array(8).fill(0);
 
 function Table() {
   const [table, setTable] = useState(new Array(8).fill(emtyArrofeight));
-  const [color,setColor]=useState(1);
+  const [color,setColor]=useState(2);
   let copy = JSON.parse(JSON.stringify(table));
   copy[0][0] = 4;
   copy[0][7] = 4;

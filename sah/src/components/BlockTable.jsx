@@ -17,7 +17,7 @@ function BlockTable({ copy, setColor }) {
   const [lastMovebent, setLastMovebent] = useState(0);
 const [regeW,setRegeW]=useState({})
 const [regeB,setRegeB]=useState({})
-  const [player, setPlayer] = useState(1);
+  const [player, setPlayer] = useState(2);
   const [lastMoveIndexs, setLastMoveIndexs] = useState({});
   console.log(arrtable);
   function click(i, j) {
